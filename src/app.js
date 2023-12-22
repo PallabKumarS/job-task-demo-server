@@ -35,7 +35,7 @@ app.use(tasksRoutes);
 //   }
 // });
 
-app.get("/health", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Service Server Is Running");
 });
 
