@@ -5,10 +5,12 @@ const app = express();
 
 // routes
 const usersRoutes = require("./routes/users");
+const tasksRoutes = require("./routes/tasks");
 
 applyMiddleware(app);
 
 app.use(usersRoutes);
+app.use(tasksRoutes);
 
 // const PackageModel = require("./models/PackageModel");
 // const GuideModel = require("./models/GuideModel");
