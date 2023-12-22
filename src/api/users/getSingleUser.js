@@ -1,4 +1,3 @@
-const e = require("express");
 const UserModel = require("../../models/UserModel");
 
 const getSingleUser = async (req, res, next) => {
